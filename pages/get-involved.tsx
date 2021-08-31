@@ -72,7 +72,7 @@ The annual Jacobs Career Fair is not just a place for established companies but 
 
 __How do I get involved?__
 
-Contact the Alumni Relations Office, currently filled by Daisy Juknischke-Heinsen, at [alumni@jacobs-university.de](mailto:alumni@jacobs-university.de) to participate as exhibitor or alumni guest.
+Contact the Alumni Relations Office, currently filled by Tanja Bean, at [alumni@jacobs-university.de](mailto:alumni@jacobs-university.de) to participate as exhibitor or alumni guest.
 
 ### Success Stories
 
