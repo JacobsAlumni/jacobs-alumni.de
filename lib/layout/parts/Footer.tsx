@@ -14,6 +14,8 @@ class FooterLegal extends React.Component {
                 <Link href="/privacy/"><a>Datenschutzerklärung / Privacy Policy</a></Link>
                 {" "}
                 <Link href="/imprint/"><a>Impressum / Imprint</a></Link>
+                {" "}
+                <a href="mailto:support@jacobs-alumni.de">Contact Support</a>
             </p>
         </>);
     }

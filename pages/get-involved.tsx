@@ -42,6 +42,8 @@ All our technical infrastructure has been developed and is being maintained by d
 __How do I get involved?__
 
 Get in contact with the [Assessor for Information Technology](/board/) of the Alumni Board. 
+__DO NOT CONTACT THE ASSESSOR FOR QUESTIONS REGARDING YOUR ALUMNI ACCOUNT. INSTEAD USE THE support@jacobs-alumni.de EMAIL ADDRESS.__
+
 
 ### Starducks
 
