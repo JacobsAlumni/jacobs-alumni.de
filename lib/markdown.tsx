@@ -1,6 +1,8 @@
 import Link from "next/link";
 import * as React from "react";
 import ReactMarkdown from "react-markdown";
+import { ReactMarkdownProps } from "react-markdown/lib/ast-to-react";
+import rehypeRaw from 'rehype-raw'
 
 interface MarkdownProps {
     allowDangerousHtml?: boolean;
@@ -10,22 +12,23 @@ interface MarkdownProps {
 export default class Markdown extends React.Component<MarkdownProps> {
     render() {
         const { children, allowDangerousHtml } = this.props;
-        return <ReactMarkdown allowDangerousHtml={allowDangerousHtml} renderers={{"link": MarkdownLink}}>{children}</ReactMarkdown>
+        return <ReactMarkdown 
+            rehypePlugins={allowDangerousHtml ? [rehypeRaw] : undefined}
+            components={{"a": MarkdownLink}}
+        >
+            {children}
+        </ReactMarkdown>
     }
 }
 
-interface LinkProps {
-    href: string
-}
-
-class MarkdownLink extends React.Component<LinkProps> {
+class MarkdownLink extends React.Component<React.AnchorHTMLAttributes<HTMLAnchorElement> & ReactMarkdownProps> {
     render() {
-        const {href, children} = this.props;
+        const {href, ...rest} = this.props;
 
-        if (!href.startsWith("/")) {
-            return <a href={href} rel="noreferrer noopener">{children}</a>;
+        if (!href || !href.startsWith("/")) {
+            return <a {...rest} href={href} rel="noreferrer noopener" />;
         }
 
-        return <Link href={href}><a>{children}</a></Link>;
+        return <Link href={href}><a {...rest} /></Link>;
     }
 }
