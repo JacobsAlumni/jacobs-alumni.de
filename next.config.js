@@ -2,6 +2,9 @@ const withOptimizedImages = require('next-optimized-images');
 
 module.exports = withOptimizedImages({
     trailingSlash: true,
+    images: {
+        disableStaticImages: true,
+    },
     env: {
         siteTitle: "Jacobs Alumni Association",
         siteDescription: "The Jacobs Alumni Association is the growing network of former Jacobs University students and friends.",
