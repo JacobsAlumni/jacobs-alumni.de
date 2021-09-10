@@ -10,28 +10,30 @@ import styles from "./2021.module.css";
 
 export default class Homecoming2021 extends React.Component {
     render() {
-        return <Layout title="Homecoming 2021" extraClassName={styles.wrapper}>
+        return <Layout title="Homecoming 2021 - ART &amp; SPARK AUCTION" extraClassName={styles.wrapper}>
             <div className="row">
-                <Img src={Banner} alt="Homecoming 2021 - 18th Setember - 25th September" />
+                <Img src={Banner} className="uk-align-center" alt="Homecoming 2021 - Art &amp; Spark Auction - Support The Next Alumni Generation" sizes={[1800, 900, 450]} />
             </div>
 
             <div className="row">
                 <div className="uk-grid">
-
-                    <div className="uk-width-1-3@m">
-                        <Img src={ArtAndSpark} alt="Homecoming 2021 - Art and Spark - 25th September" sizes={[413]} />
+                    <div className="uk-width-1-2@m">
+                        <p>
+                            Every year as part of Homecoming, talented members of the Jacobs University community donate their creativity to raise funds for the Alumni Scholarship Program. As the mission of Jacobs University Alumni Association’s is the advancement of education, science and research, providing financial support for the next generations of students is key to fulfilling our goal. 
+                        </p>
+                        <p>
+                            You can find a quick glance at scholarship facts and figures in the image <span className="uk-visible@m">on the right</span><span className="uk-hidden@m">below</span>.
+                        </p>
+                        <p className="uk-hidden@m">
+                            <Img src={ArtAndSpark} alt="Alumni Scholarship - Awarded to two students in 2021 - Selected based on Academic Excellence &amp; Financial Situation" sizes={[447]} />
+                        </p>
+                        <h3>How does the Auction work?</h3>
+                        <p>
+                            The Homecoming auction is what is called a 'blind auction'. &quot;What's a blind auction?&quot; you may ask. In a blind auction all bidders simultaneously submit their bids 'blindly' so that no bidder knows the bid of any other participant. While the highest bidder wins the item, all bids are considered donations and go directly to the scholarship program. 
+                        </p>
                     </div>
-                    <div className="uk-width-2-3@m">
-                        <h2>Art &amp; Spark</h2>
-                        <p>
-                            As part of Homecoming 2021 we will have <b>Art &amp; Spark</b> - an art auction designed to auction off art pieces and services provided by members of the Jacobs University community.
-                            You can find more information about the items below.
-                        </p>
-                        <p>
-                            The auction will take place as a blind auction where all donations are commitments.
-                            A blind auction is an auction where bidders only know their own bid.
-                            All donations being commitments means that every bidder will pay their bid - regardless if their bid is highest or not.
-                        </p>
+                    <div className="uk-width-1-2@m uk-visible@m">
+                        <Img src={ArtAndSpark} alt="Alumni Scholarship - Awarded to two students in 2021 - Selected based on Academic Excellence &amp; Financial Situation" sizes={[447]} />
                     </div>
                 </div>
             </div>
@@ -39,19 +41,22 @@ export default class Homecoming2021 extends React.Component {
             <div className="row">
                 <div className="uk-grid">
                     <div className="uk-width-2-3@m">
-                        <h2>How to participate?</h2>
+                        <h3>How Do I Participate?</h3>
                         <p>
                             To bid on a particular item, please send us a donation via Paypal by clicking the button below.
-                            In the Note field, please add the words <code>Art Auction 2021 [Piece Number Here]</code>.
-                            Please also provide an email address so that we can contact you in case you win.
+                            In the Note field, please add the words <code>Art Auction 2021 [Piece Number Here]</code> and provide an email address so that we can contact you in case you win.
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                                 <input type="hidden" name="cmd" value="_s-xclick" />
                                 <input type="hidden" name="hosted_button_id" value="3BMMTLGA99298" />
                                 <input type="image" src={Paypal as unknown as string} width="200" height="60" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                             </form>
                         </p>
+                        <h3>How do I find out the results?</h3>
                         <p>
-                            To find out the results of this auction and celebrate homecoming, join us in the main event on <b>Saturday, September 25<sup>th</sup></b>.
+                            Join us on <b>Saturday, September 25<sup>th</sup></b>, from 17.00-18.30 CEST at the Homecoming Main Event for an exciting culmination of the week and stellar agenda! Our keynote speaker, Anca Dragan, is a renowned alumna who will share her story about her path into AI and Robotics. We'll meet 'alumni from around the world' and learn about what 'life is like at Jacobs today'. We'll be entertained by alumni and current students who will share their musical talents, and top it all off by sharing the results of the auction. 
+                        </p>
+                        <p>
+                            Register for all Homecoming events and become part of the Homecoming community on the <a href="https://www.jacobs-university.de/homecoming-2021" target="_blank" rel="noreferrer noopener">Jacobs University Website</a>!
                         </p>
                     </div>
                     <div className="uk-width-1-3@m">
@@ -63,6 +68,9 @@ export default class Homecoming2021 extends React.Component {
             <div className="row">
                 <div className="uk-grid">
                     <h3>Items</h3>
+                    <p>
+                        Here are the items up for bid!
+                    </p>
                 </div>
             </div>
             <div className="row">
