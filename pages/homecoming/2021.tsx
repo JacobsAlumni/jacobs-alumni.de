@@ -206,10 +206,9 @@ class ArtItem extends React.Component<ArtAndSparkItem> {
                             <h4>Donor</h4>
                             <Markdown children={donor} />
                         </div>
-
                         <div>
                             <h4>Bio</h4>
-                            <Markdown children={donor} />
+                            <Markdown children={bio} />
                         </div>
                     </div>
                 </div>
