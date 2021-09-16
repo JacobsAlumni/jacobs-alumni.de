@@ -8,12 +8,16 @@ import Layout from "../../lib/layout/index";
 import Markdown from "../../lib/markdown";
 import styles from "./2021.module.css";
 
+import Item1 from "../../data/images/homecoming/2021/item1.jpg";
 import Item2 from "../../data/images/homecoming/2021/item2.jpg";
 import Item3 from "../../data/images/homecoming/2021/item3.jpg";
 import Item5 from "../../data/images/homecoming/2021/item5.jpg";
 import Item6 from "../../data/images/homecoming/2021/item6.jpg";
 import Item7 from "../../data/images/homecoming/2021/item7.jpg";
+import Item8 from "../../data/images/homecoming/2021/item8.jpg";
+import Item9 from "../../data/images/homecoming/2021/item9.jpg";
 import Item10 from "../../data/images/homecoming/2021/item10.jpg";
+import Item11 from "../../data/images/homecoming/2021/item11.jpg";
 
 export default class Homecoming2021 extends React.Component {
     render() {
@@ -51,12 +55,8 @@ export default class Homecoming2021 extends React.Component {
                         <h3>How Do I Participate?</h3>
                         <p>
                             To bid on a particular item, please send us a donation via Paypal by clicking the button below.
-                            In the Note field, please add the words <code>Art Auction 2021 [Piece Number Here]</code> and provide an email address so that we can contact you in case you win.
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                                <input type="hidden" name="cmd" value="_s-xclick" />
-                                <input type="hidden" name="hosted_button_id" value="3BMMTLGA99298" />
-                                <input type="image" src={Paypal as unknown as string} width="200" height="60" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                            </form>
+                            In the Note field, please add the words <code>Art Auction 2021 [Item Number Here]</code> and provide an email address so that we can contact you in case you win.
+                            <DonateButton />
                         </p>
                         <h3>How do I find out the results?</h3>
                         <p>
@@ -95,6 +95,7 @@ export default class Homecoming2021 extends React.Component {
 const artitems: Array<ArtAndSparkItem> = [
     {
         "no": 1,
+        "image": <Img className="uk-cover" src={Item1} width={500} />,
         "description": "Personal ballet lesson with Lormaigne Bockmühl  \nLength: 1 hour",
         "bio": "Lormaigne has been a part of a professional ballet company since the age of 13. She began her training with Acts Manila, a premier ballet company in the Philippines. She has won several international ballet competitions that have taken place in New York, Hong Kong, Manila, and Japan. In 2019, she began training in the Hamburg Ballet School  (Hamburg Ballett John Neumeier). She has recently finished training and will now be dancing for School Ballet De Genève.",
         "value": 60,
@@ -149,27 +150,47 @@ const artitems: Array<ArtAndSparkItem> = [
     },
     {
         "no": 8,
-        "description": "",
-        "bio": "",
-        "value": 0,
-        "donor": "Raju Gurung (‘14)"
-    },
-    {
-        "no": 9,
-        "description": "Title: Beautifully Tragic, Tragically Beautiful Medium: Oil on canvas Dimensions: 61*46cm  \nGrowing up on the Renaissance era women figure paintings, with the then renaissance ideals serving as the symbolic catalysts to the inaccurate representation of how a woman’s body should be like, this artwork depicts the same but in today’s day and age.  \n\nOn the right, you can see an idealized version of a woman who fit the beauty standards of today’s post-colonial time perfectly i.e. the glorified white-skinny-blond hair global beauty myth created by the beauty industry. The beauty routine being changed from the Victorian frequent use of ammonia or lead-based white paint to the millennial/Gen Z obsession with cosmetic surgeries, injectables and skincare; going to extreme lengths to achieve the Western ideal of beauty.  \n\nOn the left is shown a colonized woman of colour dealing with the myth of beauty to be the perfect person in the capitalistic world, switching to cosmetic surgeries on the right due to the notion that their face should not have the slightest “flaw”. Trying to fix from the de rigueur injectable facial fillers and botox underlying issues perceived as the physical ones i.e. getting the colour “fixed”, brows fixed, the jaw etc. Capitalism collaborates with patriarchy so as the perceived abnormalities never end, and the woman’s position never improves because the society is never satisfied with her and the fingers still keep pointing to the perceived flaws post surgeries.",
-        "bio": "Michelle is an amateur artist who makes art solely for the love of it.  \nI often find myself putting paint to the canvas just to calm the chaos in my head. Most times, the colors that soothe my soul or reflect it, make it to my palette, and the imagery that clears my mind begins to unfold in front of me. Art to me is therapeutic and the goal of my art is always to enjoy the cathartic process of creating.",
-        "value": 1000,
-        "donor": "Michelle Mushtaq"
-    },
-    {
-        "no": 10,
-        "image": <Img className="uk-cover" src={Item10} width={500} />,
+        "image": <Img className="uk-cover" src={Item8} width={500} />,
         "description": "Title: Sphere  \nPrint, passepartout, Marbled Paper 1:1  \nPainting area is 30cm diameter  \nFramed dimensions: 50 x 70 cm",
         "bio": "Cornelia Lohmann has lived in Bremen for more than 20 years. She has overseen the paper studio at Jacobs for nearly 20 years",
         "value": 120,
         "donor": "Cornelia Lohmann"
-    }
+    },
+
+    {
+        "no": 9,
+        "image": <Img className="uk-cover" src={Item9} width={500} />,
+        "description": "Women Between Red  \nMedium: Mixed media on Canvas  \nSize: 40cm x 60cm",
+        "bio": "Bärbel Kock is a Bremen-based freelance artist. Bärbel teaches at the Freie Kunstschule Bremen while maintaining a studio in Bremen-Nord. She is a member of both the Swedish artist society IASE and the European/Danish artist society FFKK. ",
+        "value": 0,
+        "donor": "Raju Gurung (‘14)"
+    },
+    {
+        "no": 10,
+        "image": <Img className="uk-cover" src={Item10} width={500} />,
+        "description": "Deep In The Water  \nMedium: Printing on acrylic sheet  \nSize: 37 x 70 cm",
+        "bio": "Bärbel Kock is a Bremen-based freelance artist. Bärbel teaches at the Freie Kunstschule Bremen while maintaining a studio in Bremen-Nord. She is a member of both the Swedish artist society IASE and the European/Danish artist society FFKK. ",
+        "value": 0,
+        "donor": "Raju Gurung (‘14)"
+    },
+    {
+        "no": 11,
+        "image": <Img className="uk-cover" src={Item11} width={500} />,
+        "description": "Fishes in a Circle  \nMedium: Mixed media on LP record  \nSize: 30 cm diameter",
+        "bio": "Bärbel Kock is a Bremen-based freelance artist. Bärbel teaches at the Freie Kunstschule Bremen while maintaining a studio in Bremen-Nord. She creates art in a variety of forms from paintings to mixed-media. As an instructor, she works with children, youth, and adults. She is a member of both the Swedish artist society IASE and the European/Danish artist society FFKK. ",
+        "value": 0,
+        "donor": "Raju Gurung (‘14)"
+    },
+    {
+        "no": 12,
+        "description": "Lorna will do a drawing/illustration/caricature of you (or someone else)",
+        "bio": "I graduated from Jacobs in the class of 2014 and have since studied media psychology and now I am a freelancer for illustration & graphic recording. I love drawing fast & colourful portraits and look forward to drawing you!",
+        "value": 120,
+        "donor": "Lorna Schütte (‘14)"
+    },
 ]
+// sort items by number
+artitems.sort((a, b) => a.no - b.no);
 
 interface ArtAndSparkItem {
     no: number;
@@ -183,7 +204,7 @@ interface ArtAndSparkItem {
 class ArtItem extends React.Component<ArtAndSparkItem> {
     render() {
         const { no, description, donor, value, image, bio } = this.props;
-        return <div>
+        return <div className={styles.card}>
             <div className="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid">
                 <div className={(no % 2 === 0 ? "uk-card-media-left" : "uk-flex-last@s uk-card-media-right") + " uk-cover-container"}>
                     {image && <div className="uk-card-media-top">{image}</div>}
@@ -191,7 +212,11 @@ class ArtItem extends React.Component<ArtAndSparkItem> {
                 </div>
                 <div>
                     <div className="uk-card-body">
-                        <h3 className="uk-card-title">Auction Item #{no}</h3>
+                        <h3 className="uk-card-title">
+                            Auction Item #{no}
+                            &nbsp;
+                            <DonateButton size={75} inline />
+                        </h3>
                         <div>
                             <h4>Description</h4>
                             <Markdown children={description} />
@@ -202,17 +227,40 @@ class ArtItem extends React.Component<ArtAndSparkItem> {
                             <p>{value} &euro;</p>
                         </div>}
 
+                        <div className="uk-inline uk-hidden@m">
+                            <button type="button" className="uk-button uk-button-default">Bio</button>
+                            <div uk-dropdown="mode: hover" className={styles.smallbio}>
+                                <Markdown children={bio} />
+                            </div>
+                        </div>
+
+
+                        <div className="uk-visible@m">
+                            <h4>Bio</h4>
+                            <Markdown children={bio} />
+                        </div>
+
+
                         <div>
                             <h4>Donor</h4>
                             <Markdown children={donor} />
-                        </div>
-                        <div>
-                            <h4>Bio</h4>
-                            <Markdown children={bio} />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    }
+}
+
+class DonateButton extends React.Component<{size?: number, inline?: boolean}> {
+    render() {
+        const {size: width = 200} = this.props;
+        const className = this.props?.inline ? styles.inline : undefined;
+        const height = Math.round(width/200 * 60);
+        return <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"  className={className}>
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="3BMMTLGA99298" />
+            <input type="image" src={Paypal as unknown as string} width={width} height={height} name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        </form>
     }
 }
