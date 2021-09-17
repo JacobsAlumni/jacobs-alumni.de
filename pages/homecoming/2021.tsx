@@ -19,6 +19,7 @@ import Item7 from "../../data/images/homecoming/2021/item7.jpg";
 import Item8 from "../../data/images/homecoming/2021/item8.jpg";
 import Item9 from "../../data/images/homecoming/2021/item9.jpg";
 import Item10 from "../../data/images/homecoming/2021/item10.jpg";
+import Item11 from "../../data/images/homecoming/2021/item11.jpg";
 
 export default class Homecoming2021 extends React.Component {
     render() {
@@ -29,15 +30,14 @@ export default class Homecoming2021 extends React.Component {
 
             <div className="row">
                 <div className="uk-grid">
-                    <div className="uk-width-1-3@m uk-visible@m">
-                        <Img src={ArtAndSpark} alt="Alumni Scholarship - Awarded to two students in 2021 - Selected based on Academic Excellence &amp; Financial Situation" sizes={[447]} />
-                    </div>
                     <div className="uk-width-1-3@m">
+                        <h3>What is this?</h3>
                         <p>
-                            Every year as part of Homecoming, talented members of the Jacobs University community donate their creativity to raise funds for the Alumni Scholarship Program. As the mission of Jacobs University Alumni Association’s is the advancement of education, science and research, providing financial support for the next generations of students is key to fulfilling our goal.
+                            Every year as part of Homecoming, talented members of the Jacobs University community donate their creativity to raise funds for the Alumni Scholarship Program.
+                            As the mission of Jacobs University Alumni Association is the advancement of education, science and research, providing financial support for the next generations of students is key to fulfilling our goal.
                         </p>
                         <p>
-                            You can find a quick glance at scholarship facts and figures <span className="uk-visible@m">to both sides of this paragraph</span><span className="uk-hidden@m">below</span>.
+                            You can find a quick glance at scholarship facts and figures in the images <span className="uk-visible@m">on the right</span><span className="uk-hidden@m">below</span>.
                         </p>
                         <p className="uk-hidden@m">
                             <Img src={ArtAndSpark} alt="Alumni Scholarship - Awarded to two students in 2021 - Selected based on Academic Excellence &amp; Financial Situation" sizes={[447]} />
@@ -45,10 +45,9 @@ export default class Homecoming2021 extends React.Component {
                         <p className="uk-hidden@m">
                             <Img src={ArtAndSpark2} alt="Alumni Scholarship - Awarded to seven students from seven nationalities from various majors - impact the Expected Family Contribution directly - Individual Mentors Accompany the students throughout their studies" sizes={[447]} />
                         </p>
-                        <h3>How does the Auction work?</h3>
-                        <p>
-                            The Homecoming auction is what is called a 'blind auction'. &quot;What's a blind auction?&quot; you may ask. In a blind auction all bidders simultaneously submit their bids 'blindly' so that no bidder knows the bid of any other participant. While the highest bidder wins the item, all bids are considered donations and go directly to the scholarship program.
-                        </p>
+                    </div>
+                    <div className="uk-width-1-3@m uk-visible@m">
+                        <Img src={ArtAndSpark} alt="Alumni Scholarship - Awarded to two students in 2021 - Selected based on Academic Excellence &amp; Financial Situation" sizes={[447]} />
                     </div>
                     <div className="uk-width-1-3@m uk-visible@m">
                         <Img src={ArtAndSpark2} alt="Alumni Scholarship - Awarded to seven students from seven nationalities from various majors - impact the Expected Family Contribution directly - Individual Mentors Accompany the students throughout their studies" sizes={[447]} />
@@ -57,20 +56,21 @@ export default class Homecoming2021 extends React.Component {
             </div>
 
             <div className="row">
+                <h3>How does the Auction work?</h3>
+                <p>
+                    The Homecoming auction is what is called a 'blind auction'. &quot;What's a blind auction?&quot; you may ask. In a blind auction all bidders simultaneously submit their bids 'blindly' so that no bidder knows the bid of any other participant. <mark>While the highest bidder wins the item, all bids are considered donations and go directly to the scholarship program.</mark>
+                </p>
+            </div>
+
+            <div className="row">
                 <div className="uk-grid">
                     <div className="uk-width-2-3@m">
+
                         <h3>How Do I Participate?</h3>
                         <p>
                             To bid on a particular item, please send us a donation via Paypal by clicking the button below.
                             In the Note field, please add the words <code>Art Auction 2021 [Item Number Here]</code> and provide an email address so that we can contact you in case you win.
                             <DonateButton />
-                        </p>
-                        <h3>How do I find out the results?</h3>
-                        <p>
-                            Join us on <b>Saturday, September 25<sup>th</sup></b>, from 17.00-18.30 CEST at the Homecoming Main Event for an exciting culmination of the week and stellar agenda! Our keynote speaker, Anca Dragan, is a renowned alumna who will share her story about her path into AI and Robotics. We'll meet 'alumni from around the world' and learn about what 'life is like at Jacobs today'. We'll be entertained by alumni and current students who will share their musical talents, and top it all off by sharing the results of the auction.
-                        </p>
-                        <p>
-                            Register for all Homecoming events and become part of the Homecoming community on the <a href="https://www.jacobs-university.de/homecoming-2021" target="_blank" rel="noreferrer noopener">Jacobs University Website</a>!
                         </p>
                     </div>
                     <div className="uk-width-1-3@m">
@@ -80,15 +80,20 @@ export default class Homecoming2021 extends React.Component {
             </div>
 
             <div className="row">
-                <div className="uk-grid">
-                    <div>
-                        <br />
-                        <h3>Items</h3>
-                        <p>
-                            Here are the items up for bid!
-                        </p>
-                    </div>
-                </div>
+                <h3>How do I find out the results?</h3>
+                <p>
+                    Join us on <b>Saturday, September 25<sup>th</sup></b>, from 17.00-18.30 CEST at the Homecoming Main Event for an exciting culmination of the week and stellar agenda!
+                </p>
+                <p>
+                    Register for all Homecoming events and become part of the Homecoming community on the <a href="https://www.jacobs-university.de/homecoming-2021" target="_blank" rel="noreferrer noopener">Jacobs University Website</a>!
+                </p>
+            </div>
+
+            <div className="row">
+                <h3>Items</h3>
+                <p>
+                    Here are the items up for bid!
+                </p>
             </div>
             <div className="row">
                 <div className="uk-grid uk-child-width-1-1">
@@ -144,7 +149,7 @@ const artitems: Array<ArtAndSparkItem> = [
         "no": 6,
         "image": <Img className="uk-cover" src={Item6} width={500} />,
         "description": "Virtual Cocktail Mixology Class - In this 2 hour class you'll be learning to make 3 drinks from the comfort of your home, tips and tricks on what makes a good drink and how you can use the skills learned in this session to develop your own unique drinks. If you don't drink alcohol, don't worry! The drinks we'll cover will be decided based on your preferences. To make this class accessible for anyone, it does NOT include the ingredients but you'll receive the list of ingredients ahead of time and you can invite up to 4 people to join you in your experience. As a bonus I'll be matching the value of the auction up to 450 Euro to donate to an organization supporting workers in the food & beverage industry.",
-        "bio": "Dominik graduated from Jacobs in 2014 with a degree in Computer Science. He's currently living in the San Francisco Bay Area. During the day he's working at Twilio as a Developer Advocate and by night he's working on his cocktail skills, developing recipes and documenting his work on instagram.com/cocktail.and.code. In August 2020, one of his cocktail creations was recognized with the Best Concept award in the Home Bar Awards. His favorite cocktail is a Negroni and his favorite glassware a Nick & Nora",
+        "bio": "Dominik graduated from Jacobs in 2014 with a degree in Computer Science. He's currently living in the San Francisco Bay Area. During the day he's working at Twilio as a Developer Advocate and by night he's working on his cocktail skills, developing recipes and documenting his work on [instagram.com/cocktail.and.code](https://instagram.com/cocktail.and.code). In August 2020, one of his cocktail creations was recognized with the Best Concept award in the Home Bar Awards. His favorite cocktail is a Negroni and his favorite glassware a Nick & Nora",
         "value": 200,
         "donor": "Dominik Kundel (‘14)"
     },
@@ -183,7 +188,8 @@ const artitems: Array<ArtAndSparkItem> = [
     },
     {
         "no": 11,
-        "description": "Lorna will do a drawing/illustration/caricature of you (or someone else)",
+        "image": <Img className="uk-cover" src={Item11} width={500} />,
+        "description": "Lorna will do a drawing/illustration/caricature of you (or someone else)  \n  \nNote: The image is an example of Lorna’s work and you can find more on her Instagram at [instagram.com/lornaschuette](https://www.instagram.com/lornaschuette/). ",
         "bio": "I graduated from Jacobs in the class of 2014 and have since studied media psychology and now I am a freelancer for illustration & graphic recording. I love drawing fast & colourful portraits and look forward to drawing you!",
         "value": 120,
         "donor": "Lorna Schütte (‘14)"
@@ -222,10 +228,10 @@ class ArtItem extends React.Component<ArtAndSparkItem> {
                             <Markdown children={description} />
                         </div>
 
-                        {value > 0 && <div>
+                        {/* value > 0 && <div>
                             <h4>Value</h4>
                             <p>{value} &euro;</p>
-                        </div>}
+                        </div> */}
 
                         <div className="uk-inline uk-hidden@m">
                             <button type="button" className="uk-button uk-button-default">Bio</button>
@@ -252,12 +258,12 @@ class ArtItem extends React.Component<ArtAndSparkItem> {
     }
 }
 
-class DonateButton extends React.Component<{size?: number, inline?: boolean}> {
+class DonateButton extends React.Component<{ size?: number, inline?: boolean }> {
     render() {
-        const {size: width = 200} = this.props;
+        const { size: width = 200 } = this.props;
         const className = this.props?.inline ? styles.inline : undefined;
-        const height = Math.round(width/200 * 60);
-        return <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"  className={className}>
+        const height = Math.round(width / 200 * 60);
+        return <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" className={className}>
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" value="3BMMTLGA99298" />
             <input type="image" src={Paypal as unknown as string} width={width} height={height} name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
