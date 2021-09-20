@@ -69,6 +69,7 @@ export default class Homecoming2021 extends React.Component {
                         <h3>How Do I Participate?</h3>
                         <p>
                             To bid on a particular item, please send us a donation via Paypal by clicking the button below.
+                            <mark>You can donate either with a PayPal account or with a debit or credit card. </mark>
                             In the Note field, please add the words <code>Art Auction 2021 [Item Number Here]</code> and provide an email address so that we can contact you in case you win.
                             <DonateButton />
                         </p>
