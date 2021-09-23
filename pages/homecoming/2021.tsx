@@ -11,7 +11,6 @@ import styles from "./2021.module.css";
 
 import Item1 from "../../data/images/homecoming/2021/item1.jpg";
 import Item2 from "../../data/images/homecoming/2021/item2.jpg";
-import Item3 from "../../data/images/homecoming/2021/item3.jpg";
 import Item4 from "../../data/images/homecoming/2021/item4.jpg";
 import Item5 from "../../data/images/homecoming/2021/item5.jpg";
 import Item6 from "../../data/images/homecoming/2021/item6.jpg";
@@ -122,14 +121,6 @@ const artitems: Array<ArtAndSparkItem> = [
         "bio": "Predrag Tapavicki is Head of Alumni and Career Services at Jacobs university, where he’s been working since early 2011. Born in Bosnia and Herzegovina. In Germany since 1993. Master in Political Science / International Relations from the University of Bremen. Exhibitions since 1994 in Germany, USA, Canada.  Being on the road is one of the central themes. Observations of life in a variety of contexts - questioning the aesthetics of social space - subtle and often hidden interest in the political moment. The images come from Bremen, San Francisco, Berlin, London, Dublin, Malaga, Rome, Melbourne, Singapore, New York, Adelaide, Athens, Hanover ...  \nPublic Collections:  \nSAP, Walldorf, Germany  \nRoyal Bank, Vancouver, Canada",
         "value": 500,
         "donor": "Predrag Tapavicki  \nHead of Alumni & Career Services  \nJacobs University",
-    },
-    {
-        "no": 3,
-        "image": <Img className="uk-cover" src={Item3} width={500} />,
-        "description": "This is a dance/electronica instrumental theme to inspire fiery passion, intense motivation and pure enjoyment in a well-delivered \"Surge\"⚡🔥.  \nLength: 2 minutes, 5",
-        "bio": "My name is Kuda, but I go by the musical artist name Kae.Zo. I've been producing music for a long time, but in secret; this song is titled \"Surge\" to symbolise the surge of confidence and passion that fueled me to share my incredible creativity with you, my well-deserving audience⚡🔥",
-        "value": 49,
-        "donor": "Muratidzwa K Mandaza, JU ‘23",
     },
     {
         "no": 4,
