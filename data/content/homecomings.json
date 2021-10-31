@@ -17,7 +17,6 @@
             {"year": 2010, "age": 10},
             {"year": 2015, "age": 5}
         ],
-        "gaLink": "https://www.eventbrite.de/e/homecoming-week-2020-alumni-association-general-assembly-tickets-117472103223"
     },
     "2019": {
         "year": 2019,
@@ -70,7 +69,6 @@
         "reunions": [
             {"year": 2004, "age": 10},
             {"year": 2009, "age": 5}
-        ],
-        "gaRecordingLink": "https://www.youtube.com/watch?v=X2k5ymtT1bU"
+        ]
     }
 }
