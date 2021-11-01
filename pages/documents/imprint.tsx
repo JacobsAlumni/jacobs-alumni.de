@@ -39,7 +39,8 @@ export default class Imprint extends React.Component<{board: Array<BoardMember>}
             <p>
                 Handelsregister <br />
                 Amtsgericht Bremen, HRB 18117 <br />
-                Steuer-Nr. 60 145 14056
+                Steuer-Nr. 60 145 14056 <br />
+                Ust.-ID. DE309143984
             </p>
 
             <h3>Disclaimer</h3>
