@@ -23,7 +23,19 @@ import Item12 from "../../data/images/homecoming/2021/item12.jpg";
 
 export default class Homecoming2021 extends React.Component {
     render() {
-        return <Layout title="Homecoming 2021 - ART &amp; SPARK AUCTION" extraClassName={styles.wrapper}>
+        return <Layout title="Homecoming 2021 - ART &amp; SPARK AUCTION - CLOSED" extraClassName={styles.wrapper}>
+            <div className="row">
+                <div className="uk-alert-danger" uk-alert="">
+                    <a className="uk-alert-close" uk-close=""></a>
+                    <p>
+
+                        This page is about the 2021 Homecoming Event.
+                        It is available for historical purposes.
+                        The Art Auction has closed, please do not attempt to donate towards specific items.
+                    </p>
+                </div>
+            </div>
+
             <div className="row">
                 <Img src={Banner} className="uk-align-center" alt="Homecoming 2021 - Art &amp; Spark Auction - Support The Next Alumni Generation" sizes={[1800, 900, 450]} />
             </div>
@@ -100,6 +112,15 @@ export default class Homecoming2021 extends React.Component {
                 <div className="uk-grid uk-child-width-1-1">
                     {artitems.map(item => <ArtItem {...item} key={item.no} />)}
                 </div>
+            </div>
+            <div className="uk-alert-danger" uk-alert="">
+                <a className="uk-alert-close" uk-close=""></a>
+                <p>
+
+                    This page is about the 2021 Homecoming Event.
+                    It is available for historical purposes.
+                    The Art Auction has closed, please do not attempt to donate towards specific items.
+                </p>
             </div>
         </Layout>
     }
