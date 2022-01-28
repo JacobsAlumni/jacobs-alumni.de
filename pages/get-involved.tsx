@@ -45,16 +45,16 @@ Get in contact with the [Assessor for Information Technology](/board/) of the Al
 __DO NOT CONTACT THE ASSESSOR FOR QUESTIONS REGARDING YOUR ALUMNI ACCOUNT. INSTEAD USE THE support@jacobs-alumni.de EMAIL ADDRESS.__
 
 
-### Starducks
+### StarDucks
 
 __What is it?__
 
-The Starducks initiative links up admitted students with our alumni all across the globe, and gives them a chance to talk to you and discover Jacobs University over coffee. 
+The StarDucks program aims to showcase Jacobs alumni to prospective students through direct involvement such as college fairs, information sessions, and one-on-one meetings to indirect means such as alumni profiles and videos.
+Alumni can share their experiences to help motivate the next generation of students.
 
 __How do I get involved?__
 
-<!-- TODO: We need to have a general email here -->
-Contact Cristina Trifon-Calvopina at [c.calvopina@jacobs-university.de](mailto:c.calvopina@jacobs-university.de).
+Contact the Alumni Relations Office at [alumni@jacobs-university.de](mailto:alumni@jacobs-university.de).
 
 ### Events for Alumni by Alumni
 
