@@ -234,6 +234,16 @@
       ]
     },
     {
+      "name": "Muhammad Azka",
+      "roles": [
+        {
+          "role": "secretary",
+          "from": 2019,
+          "to": 2022
+        }
+      ]
+    },
+    {
       "name": "Petar Perkovic",
       "roles": [
         {
@@ -315,6 +325,41 @@
           "role": "secretary",
           "from": 2010,
           "to": 2015
+        }
+      ]
+    },
+    {
+      "name": "Stefan Rustler",
+      "roles": [
+        {
+          "role": "treasurer",
+          "from": 2013,
+          "to": 2016
+        },
+        {
+          "role": "vice-president",
+          "from": 2016,
+          "to": 2019
+        },
+        {
+          "role": "president",
+          "from": 2019,
+          "to": 2022
+        }
+      ]
+    },
+    {
+      "name": "Stefan Kuzmanovski",
+      "roles": [
+        {
+          "role": "treasurer",
+          "from": 2016,
+          "to": 2019
+        },
+        {
+          "role": "vice-president",
+          "from": 2019,
+          "to": 2022
         }
       ]
     },

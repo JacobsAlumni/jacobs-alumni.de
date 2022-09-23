@@ -1,35 +1,34 @@
 [
     {
-      "name": "Stefan Rustler",
+      "name": "Cornelia (Conny) Scheitz",
       "role": "president",
-      "image": true,
+      "image": false,
       "meta": {
-        "email": "srustler@jacobs-alumni.de",
-        "facebook": "https://www.facebook.com/stefan.rustler",
-        "twitter": "https://twitter.com/RustlerStefan",
-        "linkedin": "https://www.linkedin.com/pub/stefan-rustler/35/b61/38a"
+        "email": "cscheitz@jacobs-alumni.de",
+        "linkedin": "https://www.linkedin.com/in/cornelia-scheitz/"
       },
-      "description": "Stefan Rustler (’12) has been on the Alumni Board since 2014. After his roles as Head Organizer of the annual Homecomings and Vice-President, he took up the role as President in 2019. \n\nStefan graduated from Jacobs with a BSc in Physics and finished his MSc in Physics at ETH Zurich. Currently, he is working for Accenture in Zurich as management consultant in the field of Analytics and Digital Transformation. He is also the founder of the Thailand-based \"Data Science Beach Camp\", an affordable bootcamp format to teach advanced digital skills."
+      "description": "Conny is new."
     },
     {
-      "name": "Stefan Kuzmanovski",
+      "name": "Albena Bogoeva",
       "role": "vice-president",
       "image": true,
       "meta": {
-        "email": "skuzmanovski@jacobs-alumni.de",
-        "facebook": "https://www.facebook.com/stefan.kuzmanovski92",
-        "linkedin": "https://www.linkedin.com/in/stefankuzmanovski"
+        "email": "abogoeva@jacobs-alumni.de",
+        "facebook": "https://www.facebook.com/albenab",
+        "linkedin": "https://www.linkedin.com/in/abogoeva/"
       },
-      "description": "Stefan Kuzmanovski ('14) is a technical program manager at Tesla in Palo Alto, California. Prior to joining Tesla he earned his Master of Environmental Management at the Yale School of Forestry and Environmental Studies. At Jacobs University he pursued a dual degree in Earth and Space Sciences and Integrated Environmental Studies. \n\nHe was involved with the Environmental Club and was a Student Assistant in the Nordmetall College Office for 2 years. Stefan is excited to help develop and grow the Alumni Association as well as provide value to the Association’s members worldwide."
+      "description": "Albena ('14) is joining the Alumni Board to strengthen its public presence in the community and support its communication efforts to motivate more people to be active members and uphold the Jacobs spirit.\n\nAfter graduating from Jacobs with a BSc in Information Management and Systems in 2014, she finished her MSc in Business Informatics at the University of Mannheim. At Jacobs, she coordinated the Rotaract Club, was a member of the Stage, Light, Sound Crew, a proud Pulse Express employee and passionate C3 resident. She is currently working as a management consultant in Mannheim, helping customers succeed in their digital transformations in the area of procurement."
     },
     {
-      "name": "Muhammad Azka",
+      "name": "Johannes Huber",
       "role": "secretary",
-      "image": true,
+      "image": false,
       "meta": {
-        "email": "mazka@jacobs-alumni.de"
+        "email": "jhuber@jacobs-alumni.de",
+        "linkedin": "https://www.linkedin.com/in/johannes-huber-879b26176/"
       },
-      "description": "Muhammad Azka ('19) is a product, supply-demand manager in Zalando SE, where he is managing partners and brands in an affiliate marketplace business model in Europe's largest fashion platform. \n\nHe graduated in 2019 with a BSc in Industrial Engineering and Management, representing the class as an undergraduate speaker. Prior to joining Zalando, he is involved a lot in the startup community such as JSC, Bremen Startups, and have tried founding different ventures. While currently building his new venture, Azka is committed to strengthen the alumni community, as he believed the community can achieve symbiotic benefits while leveraging the network, expertise, and knowledge of every individuals."
+      "description": "Johannes is new"
     },
     {
       "name": "Leonhard Kuboschek",
@@ -45,15 +44,14 @@
       "description": "Leo ('17) is a technical consultant at DXC in Zürich, Switzerland. \n\nWhen he's not writing enterprise-grade software, you'll find him on his road bike chasing KOMs on Strava. While studying Computer Science at Jacobs, he was a member of the Rowing Team, Head of IT for the Undergraduate Student Government, as well as being team lead for the Stage, Light and Sound group of Campus Life. As the treasurer, he has automated issuing donation receipts and will continue to work on establishing an alumni fund."
     },
     {
-      "name": "Albena Bogoeva",
+      "name": "Alena Di Primio",
       "role": "pr",
-      "image": true,
+      "image": false,
       "meta": {
-        "email": "abogoeva@jacobs-alumni.de",
-        "facebook": "https://www.facebook.com/albenab",
-        "linkedin": "https://www.linkedin.com/in/abogoeva/"
+        "email": "adiprimio@jacobs-alumni.de",
+        "linkedin": "https://www.linkedin.com/in/adiprimio"
       },
-      "description": "Albena ('14) is joining the Alumni Board to strengthen its public presence in the community and support its communication efforts to motivate more people to be active members and uphold the Jacobs spirit.\n\nAfter graduating from Jacobs with a BSc in Information Management and Systems in 2014, she finished her MSc in Business Informatics at the University of Mannheim. At Jacobs, she coordinated the Rotaract Club, was a member of the Stage, Light, Sound Crew, a proud Pulse Express employee and passionate C3 resident. She is currently working as a management consultant in Mannheim, helping customers succeed in their digital transformations in the area of procurement."
+      "description": "Alena is new."
     },
     {
       "name": "Nouria Jantz-Naeem",
@@ -82,6 +80,16 @@
         "email": "cschiller@jacobs-alumni.de"
       },
       "description": "Celia Schiller ('21) graduated from Jacobs University in Bremen with a Bachelor of Arts in International Relations after finishing her secondary education as a German national in the United States. She developed a keen interested for security studies during her undergraduate studies and practically applied those interests with an internship at the Federal Academy for Security Policy in Berlin and at the U.S. Consulate General in Hamburg.\n\nShe has worked as a Business Intelligence Trainee at Rheinmetall Defence and starts as a Fellow at BwConsulting while pursuing a Master of International Affairs & International Security at the Hertie School in Berlin. At JUB, she has been a member of the Nordmetall College Office Team and the Graduate Housing Coordinator for the Housing Department."
+    },
+    {
+      "name": "Zain Dar",
+      "role": "member-management",
+      "image": false,
+      "meta": {
+        "email": "zdar@jacobs-alumni.de",
+        "linkedin": "https://www.linkedin.com/in/zainsalmandar/"
+      },
+      "description": "Zain is new."
     },
     {
       "name": "Tom Wiesing",

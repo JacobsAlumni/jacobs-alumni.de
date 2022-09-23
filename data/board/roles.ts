@@ -23,10 +23,10 @@ const allRoles = [
     BoardRole.AssessorEventManagement,
     BoardRole.AssessorFundraising,
     BoardRole.AssessorInformationTechnology,
-    BoardRole.AssessorMemberManagement,
     BoardRole.AssessorNetworkDevelopment,
     BoardRole.AssessorPublicRelations,
     BoardRole.AssessorSpecialProjects,
+    BoardRole.AssessorMemberManagement,
 ]
 
 export const englishNames: Readonly<Record<BoardRole, string>> = Object.freeze({
