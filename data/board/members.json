@@ -23,12 +23,12 @@
     {
       "name": "Johannes Huber",
       "role": "secretary",
-      "image": false,
+      "image": true,
       "meta": {
         "email": "jhuber@jacobs-alumni.de",
         "linkedin": "https://www.linkedin.com/in/johannes-huber-879b26176/"
       },
-      "description": "Johannes is new"
+      "description": "Johannes ('15) is new."
     },
     {
       "name": "Leonhard Kuboschek",
@@ -84,12 +84,12 @@
     {
       "name": "Zain Dar",
       "role": "member-management",
-      "image": false,
+      "image": true,
       "meta": {
         "email": "zdar@jacobs-alumni.de",
         "linkedin": "https://www.linkedin.com/in/zainsalmandar/"
       },
-      "description": "Zain is new."
+      "description": "Zain ('19) is new."
     },
     {
       "name": "Tom Wiesing",
